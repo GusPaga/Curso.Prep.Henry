@@ -8,9 +8,9 @@ function obtenerMayor(x, y) {
   if (x === y) {
     return x;
   } else if(x > y) {
-    return (x + ' es el mas grande');
+    return x;
   } else { 
-    return (y + ' es el mas grande')
+    return y;
   }
 }
 
