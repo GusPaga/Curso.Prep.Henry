@@ -5,8 +5,13 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  switch (obtenerMayor)
-  case 1: 
+  if (x === y) {
+    return x;
+  } else if(x > y) {
+    return (x + ' es el mas grande');
+  } else { 
+    return (y + ' es el mas grande')
+  }
 }
 
 function mayoriaDeEdad(edad) {
