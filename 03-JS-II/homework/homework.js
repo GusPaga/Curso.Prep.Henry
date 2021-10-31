@@ -188,8 +188,7 @@ function tablaDelSeis(){
           arrayTablaDel6.push(6 * i)
     }return arrayTablaDel6
   }
- }
-
+ 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
